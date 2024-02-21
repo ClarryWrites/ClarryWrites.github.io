@@ -22,3 +22,5 @@ body {
     background-color: beige;
     height: 10px
 }
+
+Comment: when changing the flex values, the flex containers change shape (like vertically and horizontally)
