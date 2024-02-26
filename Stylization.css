@@ -7,15 +7,20 @@ body {
 /*Headers*/
 
 
- .flex-container {
-    display: flex;
-    flex-direction: column;}
+ .web-container div { 
+  background: rgb(225, 209, 244);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;}
   
-  .flex-container div {
-    background: rgb(225, 209, 244);
-    border: 4px solid rgb(255, 255, 255);
-    height: 80px;
-    flex: 1 1 auto;}
+.h2 {height: 20px;}
 
-.flex-container h3 {
-    flex-shrink: 0;}      
+  .p1 {width: 300px;
+    height: 200px;
+    border: 10px solid red;}
+
+  .Books {width: 200px;
+    height: 200px;
+    margin: 50px;}
