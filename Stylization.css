@@ -6,6 +6,18 @@ body {
 
 /*Headers*/
 
+ .h2 div {display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;}
+    .h2 {background-color: aquamarine;
+    height:20px;
+    margin: 10px;
+    padding: 0%;
+    border:5px solid black;
+    font-size: 20px;
+    text-align: center;}
+    ul {list-style: none;}
 
  .web-container div { 
   background: rgb(225, 209, 244);
@@ -14,8 +26,6 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 10px;}
-  
-.h2 {height: 20px;}
 
   .p1 {width: 300px;
     height: 200px;
