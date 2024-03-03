@@ -1,36 +1,38 @@
 /*Overall*/
 body {
     background-color: rgb(245, 227, 230);
-    margin-left: 5%;
-    margin-right: 5%;}
+    margin-left: 0%;
+    margin-right: 0%;}
 
 /*Headers*/
 
- .h2 div {display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;}
-    .h2 {background-color: aquamarine;
-    height:20px;
-    margin: 10px;
-    padding: 0%;
-    border:5px solid black;
-    font-size: 20px;
-    text-align: center;}
-    ul {list-style: none;}
+ .h2 div {display:flex;}
+   .h2 {ul {list-style: none;
+      background-color: blueviolet;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 5px solid black;}
+    li {display:inline-block;
+      padding: 4px;
+      font-family:Georgia, 'Times New Roman', Times, serif;}}
 
  .web-container div { 
-  background: rgb(225, 209, 244);
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
   gap: 10px;}
+
+  .h3 {flex-direction: column;
+    text-align: center;}
+  .Title {align-self: center;
+    background-color: rgb(165, 220, 243);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    width: 800px;
+    height: 100px;
+    margin: 50px;}
 
   .p1 {width: 300px;
     height: 200px;
-    border: 10px solid red;}
-
-  .Books {width: 200px;
-    height: 200px;
-    margin: 50px;}
+    border: 10px solid rgb(104, 78, 134);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
